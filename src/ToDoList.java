@@ -37,33 +37,27 @@ public class ToDoList {
         if (menuInput.equalsIgnoreCase("EditOne")) {
                 Scanner editOne = new Scanner(System.in);
                 String editOneInput = editOne.next();
-
-                PointOne = editOneInput;
-            }
+                PointOne = editOneInput;}
+        
         if (menuInput.equalsIgnoreCase("EditTwo")) {
                 Scanner editTwo = new Scanner(System.in);
                 String editTwoInput = editTwo.next();
-
-                PointTwo = editTwoInput;
-            }
+                PointTwo = editTwoInput;}
+        
         if (menuInput.equalsIgnoreCase("EditThree")) {
                 Scanner editThree = new Scanner(System.in);
                 String editThreeInput = editThree.next();
-
-                PointThree = editThreeInput;
-            }
+                PointThree = editThreeInput;}
+        
         if (menuInput.equalsIgnoreCase("EditFour")) {
                 Scanner editFour = new Scanner(System.in);
                 String editFourInput = editFour.next();
-
-                PointFour = editFourInput;
-            }
+                PointFour = editFourInput;}
+        
         if (menuInput.equalsIgnoreCase("EditFive")) {
                 Scanner editFive = new Scanner(System.in);
                 String editFiveInput = editFive.next();
-
-                PointFive = editFiveInput;
-            }
+                PointFive = editFiveInput;}
 
         if (menuInput.equalsIgnoreCase("CheckOne")) {
             PointOne = PointOne + " √"; }
