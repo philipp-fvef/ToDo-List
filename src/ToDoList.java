@@ -34,42 +34,36 @@ public class ToDoList {
         Scanner menu = new Scanner(System.in);
         String menuInput = menu.next();
 
-        if (menuInput.equalsIgnoreCase("Edit")){
-            Scanner edit = new Scanner(System.in);
-            String editInput = edit.next();
-
-            if (editInput.equalsIgnoreCase("One")) {
+        if (menuInput.equalsIgnoreCase("EditOne")) {
                 Scanner editOne = new Scanner(System.in);
                 String editOneInput = editOne.next();
 
                 PointOne = editOneInput;
             }
-            if (editInput.equalsIgnoreCase("Two")) {
+        if (menuInput.equalsIgnoreCase("EditTwo")) {
                 Scanner editTwo = new Scanner(System.in);
                 String editTwoInput = editTwo.next();
 
                 PointTwo = editTwoInput;
             }
-            if (editInput.equalsIgnoreCase("Three")) {
+        if (menuInput.equalsIgnoreCase("EditThree")) {
                 Scanner editThree = new Scanner(System.in);
                 String editThreeInput = editThree.next();
 
                 PointThree = editThreeInput;
             }
-            if (editInput.equalsIgnoreCase("Four")) {
+        if (menuInput.equalsIgnoreCase("EditFour")) {
                 Scanner editFour = new Scanner(System.in);
                 String editFourInput = editFour.next();
 
                 PointFour = editFourInput;
             }
-            if (editInput.equalsIgnoreCase("Five")) {
+        if (menuInput.equalsIgnoreCase("EditFive")) {
                 Scanner editFive = new Scanner(System.in);
                 String editFiveInput = editFive.next();
 
                 PointFive = editFiveInput;
             }
-
-        }
 
         if (menuInput.equalsIgnoreCase("CheckOne")) {
             PointOne = PointOne + " √"; }
